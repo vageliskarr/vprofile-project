@@ -71,7 +71,7 @@ pipeline {
 		}
 
         stage ('UploadArtifact') {
-			steps { 
+			steps {  
 				nexusArtifactUploader (
 					nexusVersion : 'nexus3',
 					protocol : 'http',
